@@ -1,0 +1,621 @@
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	width: 1140px;
+	margin:0 auto;
+}
+
+header{
+   width: 100%;
+   float: left;
+   padding: 26px 0px;
+   background:  #f6f9f9;
+}
+
+.logo{
+   width: 40%;
+   float: left;
+}
+
+.menu{
+  width: 60%;
+   float: left;
+}
+
+nav ul{
+  list style: none;
+
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #ffff;
+  background: #15a4fa;
+  padding: 5px 20px;
+
+}
+
+.banner{
+	width:100%;
+	float: left;
+	background: url('../img/banner.jpg')no-repeat;
+	background-size: cover;
+	padding: 26px 0px;
+}
+
+.banner-main{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.banner-main h2{
+	color: white;
+	font-size: 110px;
+    font-weight: bold;
+}
+
+.banner-main span{
+	border-bottom: 2px solid #15a4fa;
+	display: block;
+	width: 80%;
+	margin: 10px auto;
+}
+
+.banner-main p{
+	font-size: 18px;
+	color: white;
+
+}
+
+.banner-btn{
+	background: transparent;
+	border: 1px solid #15a4fa;
+	padding: 10px 24px;
+	color: white;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.banner-icon{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.information{
+	
+	 width: 100%;
+    float: left;
+    padding: 26px 0px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.information h1{
+	color: black;
+	font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.information p{
+	font-size: 18px;
+	color: black;
+	text-align: center;
+
+}
+
+
+.service{
+   width: 100%;
+   float: left;
+   padding: 10px 0px;
+}
+
+.service-optimize{
+   width: 33.33%;
+  float: left;
+   text-align: center;
+}
+
+
+.service-icon{
+  background: #15a4fa;
+  width: 75px;
+  height: 70px;
+  line-height: 75px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  margin:0 auto;
+  position: relative;
+}
+
+.service-icon::after{
+	 position: absolute;
+	 width: 50%;
+	 height: 100%;
+	 background: blue;
+	 content: '';
+	 right: 0;
+	 opacity: 0.2;
+	 top: 0;
+	}
+
+.service-optimize h2{
+  margin: 10px 15px;
+}
+
+.service-optimize p{
+   font-size: 18px;
+	color: black;
+	text-align: center;
+
+}
+
+.service-design{
+   width: 33.33%;
+  float: left;
+   text-align: center;
+}
+
+.service-font{
+   width: 33.33%;
+  float: left;
+   text-align: center;
+}
+
+.showcase{
+	
+	 width: 100%;
+    float: left;
+    padding: 26px 0px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.showcase h1{
+	color: black;
+	font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.showcase p{
+	font-size: 18px;
+	color: black;
+	text-align: center;
+
+}
+
+.portfolio{
+   width: 100%;
+   float: left;
+   padding: 25px 0px;
+}
+
+.image-hover{
+   
+     width: 31.3%;
+     float: left;
+     position: relative;
+     margin-right: 15px;
+}
+
+.image-hover img{
+	width: 100%;
+	overflow: hidden;
+	
+}
+
+.image-hover-content{
+	background: #15a4fa7a;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	opacity: 0;
+	transition: 0.4s ease-in-out;
+}
+
+.image-hover-content h2{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: #ffff;
+}
+
+.image-hover-content p{
+    position: absolute;
+    top: 60%;
+    left: 22%;
+
+}
+
+.image-hover:hover .image-hover-content{
+	opacity: 1;
+}
+
+.image-hover-2{
+   
+     width: 31.3%;
+     float: left;
+     position: relative;
+ margin-right: 15px;
+}
+
+.image-hover-2 img{
+	width: 100%;
+	overflow: hidden;
+
+}
+
+.image-hover-2-content{
+	background: #15a4fa7a;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	opacity: 0;
+	transition: 0.4s ease-in-out;
+}
+
+.image-hover-2-content h2{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: #ffff;
+}
+
+.image-hover-2-content p{
+    position: absolute;
+    top: 60%;
+    left: 22%;
+
+}
+
+.image-hover-2:hover .image-hover-2-content{
+	opacity: 1;
+}
+
+
+
+.image-hover-3{
+   
+     width: 31.3%;
+     float: left;
+     position: relative;
+      margin-right: 15px;
+}
+
+.image-hover-3 img{
+	width: 100%;
+	overflow: hidden;
+}
+
+.image-hover-3-content{
+	background: #15a4fa7a;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	opacity: 0;
+	transition: 0.4s ease-in-out;
+}
+
+.image-hover-3-content h2{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: #ffff;
+}
+
+.image-hover-3-content p{
+    position: absolute;
+    top: 60%;
+    left: 22%;
+
+}
+
+.image-hover-3:hover .image-hover-3-content{
+	opacity: 1;
+}
+
+.portfolio-2{
+   width: 100%;
+   float: left;
+   padding: 25px 0px;
+}
+
+.image-hover-4{
+   
+     width: 31.3%;
+     float: left;
+     position: relative;
+      margin-right: 15px;
+}
+
+.image-hover-4 img{
+	width: 100%;
+	overflow: hidden;
+}
+
+.image-hover-4-content{
+	background: #15a4fa7a;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	opacity: 0;
+	transition: 0.4s ease-in-out;
+}
+
+.image-hover-4-content h2{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: #ffff;
+}
+
+.image-hover-4-content p{
+    position: absolute;
+    top: 60%;
+    left: 22%;
+
+}
+
+.image-hover-4:hover .image-hover-4-content{
+	opacity: 1;
+}
+
+.image-hover-5{
+   
+     width: 31.3%;
+     float: left;
+     position: relative;
+      margin-right: 15px;
+}
+
+.image-hover-5 img{
+	width: 100%;
+	overflow: hidden;
+}
+
+.image-hover-5-content{
+	background: #15a4fa7a;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	opacity: 0;
+	transition: 0.4s ease-in-out;
+}
+
+.image-hover-5-content h2{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: #ffff;
+}
+
+.image-hover-5-content p{
+    position: absolute;
+    top: 60%;
+    left: 22%;
+
+}
+
+.image-hover-5:hover .image-hover-5-content{
+	opacity: 1;
+}
+
+
+
+.image-hover-6{
+   
+     width: 31.3%;
+     float: left;
+     position: relative;
+      margin-right: 15px;
+}
+
+.image-hover-6 img{
+	width: 100%;
+	overflow: hidden;
+}
+
+.image-hover-6-content{
+	background: #15a4fa7a;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	opacity: 0;
+	transition: 0.4s ease-in-out;
+}
+
+.image-hover-6-content h2{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: #ffff;
+}
+
+.image-hover-6-content p{
+    position: absolute;
+    top: 60%;
+    left: 22%;
+
+}
+
+.image-hover-6:hover .image-hover-6-content{
+	opacity: 1;
+}
+
+.login{
+	background: grey;
+    width: 100%;
+    float: left;
+    margin: 20px ;
+    padding: 25px 0px;
+    padding-bottom: 25px;
+
+}
+
+.login-section{
+	width: 40%;
+	height: 40px;
+	margin-bottom: 11px auto ;
+	text-align: center;
+ padding: 0px 5px;
+    
+}
+
+.form-control{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 0px 5px;
+  
+  border: 1px solid white;
+
+  
+}
+
+.form-footer{
+    
+}
+
+.cstm-textarea{
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.check{
+  margin-right: 11px;
+  float: left;
+  margin-top: 4px;
+
+}
+
+.submit-btn{
+     float: right;
+     background: transparent;
+     border: 1px solid white;
+     padding: 5px 25px;
+}
+
+
+.footer{
+	background: white;
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.copyright{
+	width: 50%;
+	float: left;
+	padding: 50px 0px;
+	padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.copyright h3{
+	text-align: center;
+	font-size: 15px;
+}
+.social-icon{
+   width: 50%;
+   float: left;
+}
+
+.social-icon ul{
+	list-style: none;
+}
+
+.social-icon ul li{
+	display: inline-block;
+	margin: 10px 20px;
+}
+
+.social-icon ul li a{
+	
+}
+
+.fa.fa-facebook{
+	background: #087AE9;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 30px;
+	transition: 0.4s ease-in-out;
+}
+
+.fa.fa-instagram{
+	background: #C02666;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 30px;
+	transition: 0.4s ease-in-out;
+}
+
+
+.fa.fa-twitter{
+	background: #087AE9;
+	color: #fff;
+	padding: 5px 10px;
+	
+	transition: 0.4s ease-in-out;
+}
+
+
+.fa.fa-linkedin{
+	background: #007785;
+	color: #fff;
+	padding: 5px 10px;
+	
+	transition: 0.4s ease-in-out;
+	
+}
+
+
+.fa.fa-facebook:hover{
+	transform: rotate(360deg);
+}
+
+.fa.fa-instagram:hover{
+	transform: rotate(360deg);
+}
+
+.fa.fa-twitter:hover{
+	transform: rotate(360deg);
+}
+
+.fa.fa-linkedin:hover{
+	transform: rotate(360deg);
+}
