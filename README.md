@@ -1,0 +1,1 @@
+# strict-file-2
